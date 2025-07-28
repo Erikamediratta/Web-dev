@@ -1,0 +1,25 @@
+.loader
+{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+  
+   border:20px solid blue;
+   border-top:20px solid black;
+   animation: spinAnimate 3s ease-in 0s infinite normal ;
+   /* name duration timing function delay iteration count direction */
+
+   
+
+ 
+}
+/* now make an animation which transforms it from 0deg to 360deg */
+
+@keyframes spinAnimate{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}

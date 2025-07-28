@@ -1,0 +1,106 @@
+/* Media Queries */
+div
+{
+    height:50px;
+    width:50px;
+    background-color: lightcoral;
+}
+@media(width:600px)
+{
+    div
+    {
+        background-color: red;
+    }
+}
+/* this means when screen's size is exactly 600 px
+change color to red */
+
+
+/* Now min-width:600px or big 
+0-aage se till width  is max-width */
+
+/* @media(min-width:600px)
+{
+    div
+    {
+        background-color: green;
+    }
+}
+@media(max-width:600px)
+{
+    div
+    {
+        background-color: blue;
+    }
+}
+@media(min-width:200px )and (max-width:300px)
+{
+    div
+    {
+        background-color:black;
+    }
+} */
+
+
+ div:hover
+{
+    background-color:red;
+    font-size: 20px;
+    transform:scale(2,1);
+    transform:rotate(90deg);
+    transition: all 2s ease-in;
+
+} 
+/* when cursor on this div color changes to red */
+
+/* div:active{
+    background-color: black;
+} */
+/* when clicked, color changes to black */
+
+/* Transitions */
+
+/* div
+
+{
+    transition-property: all ;
+    transition-duration: 2s;
+    transition-timing-function: steps(3);
+    transition-delay: 1s;
+
+    transition: all 2s steps(3) 1s;
+}  */
+
+/* CSS TRANSFORM */
+
+div
+{ position:absolute;
+    top:150px;
+    left:150px;
+    /* transform: rotate(90deg); */
+    transform:scale(1,2);
+    /* x axis,yaxis,z axis */
+
+    transform:scale(2,1);
+    animation-name: colorAnimate;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay:1s;
+    animation-iteration-count: infinite;
+
+   
+}
+/* translate */
+
+/* ANIMATION */
+
+/* @keyframes colorAnimate
+{
+    from{background-color: lightcoral;}
+   to{background-color: lightgreen;}
+
+}
+ */
+
+ 
+

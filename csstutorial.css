@@ -1,0 +1,381 @@
+ h1
+{
+    color:rgb(255, 0, 89);
+}
+/* color property- to set the foreground color*/
+
+p
+{
+    color:deeppink;
+}
+button
+{
+    color:brown;
+    background-color: black;
+}
+
+/* Background color Property-to set background color */
+
+body
+{
+    background-color: pink;
+} 
+
+
+/* color systems
+RGB color:rgb(255,0,0); //red
+color:rgb(0,255,0); // green
+color:rgb(0,0,255) //Blue */
+
+/* hex(Hexadecimal)
+color:#ff0000; ff-r 00-g 00-b
+color:#00ff00; 00-r ff-g 00 -b
+for yellow- #ffff00
+For more information
+go to color picker website 
+cooler website
+ */
+
+ /* Universal Selector 
+*
+{
+
+} */
+ /* The things written late are given more priority */
+
+/* id selector  */
+
+#Heading2
+{
+    color:white;
+}
+
+#Heading3
+{
+    color:brown;
+}
+
+/* Class Selector */
+
+/* if same id, then put them all in same class,
+instead of giving same id,give same class */
+
+.MyClass
+{
+    color:green;
+}
+
+#Box
+{
+    background-color: blue;
+}
+.Heading
+{
+    color:red;
+}
+
+#Button2
+{
+    background-color: green;
+}
+
+p
+{
+     text-align: center; 
+    /*can also be done right */
+
+}
+/* Text Decoration */
+
+h1
+{
+    text-decoration: black underline;
+}
+h2
+{
+    text-decoration: blue dotted overline;
+}
+
+a
+{
+     text-decoration: none;
+    /*underline below anchor tags will be removed  */
+}
+
+/* Font weight - normal/bold/bolder/lighter */
+
+#head1
+{
+    font-weight: bolder;
+}
+#head3
+{
+    font-weight:normal;
+}
+/* Font-family-style */
+
+#Fontfam
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+/* units in CSS 
+(Absolute)
+pixels(px)
+96px=1 inch
+font-size:2px
+*/
+/* normal text size-default=16 */
+#one
+{
+    font-size: 40px; 
+    text-transform: uppercase;
+}
+
+#two
+{
+    font-size:25px;
+}
+#three
+{
+    font-size:25px;
+    line-height:40px;
+    
+}
+#Again
+{
+    text-align: center;
+    text-transform:uppercase;
+}
+body
+{
+    font-family:'Times New Roman';
+}
+
+/* 
+border-the underline  
+content-width
+content-height
+between border and content-padding
+between one border and two border-margin
+*/
+
+#DIV{
+    height:100px;
+    background-color:black;
+    width:100px;
+    color:pink;
+    text-align: center;
+}
+/* text align doesnt mean center aligned according to screen but acc
+width and height alloted */
+
+/* Border property
+boder width:2px 
+border-color:100px */
+
+#DIV
+{
+    border-style:solid;
+    border-color:red;
+}
+
+/* Border shorthand */
+#DIV
+{
+    border:5px solid blue;
+}
+/* border width, style,color */
+/* 
+Round the corners of element's outer border edge */
+
+/* 
+div{
+    height:100px;
+    width:100px;
+    background-color: black;
+    color:pink;
+    text-align: center;
+    border-radius: 50%;
+} */
+
+/* Padding */
+/* div{
+    padding-left:25px;
+    padding-right:25px;
+    padding-top: 60px;
+    
+    
+} */
+/* Margin -gap between two boxes */
+/* div
+{
+    margin-top:50px;
+} */
+ #navbar
+ {
+    padding:0;
+    margin:0;
+   
+
+    /* this is a good practice */
+
+    background-color: #0f1111;
+    height:40px;
+
+ }
+
+ #Account
+ {
+    color:white;
+    margin-right:40px;
+ }
+ #Mycart
+ {
+    color:white;
+ }
+#Amazon
+{
+    color:orange;
+    margin-right:40px;
+}
+
+/* Display property
+inline- takes only the space required by element */
+
+/* div
+{
+    display: inline;
+} */
+
+button
+{
+    display:block;
+}
+/* button is inline but now its block, takes full width */
+
+/* display inline block- same as inline but margin and padding
+properties will be valid but in normal inline we cant */
+
+/* display -none means remove from document flow
+that means removed from website */
+
+/* Visibility:hidden; will be removed from website */
+
+/* difference between display:none and visibility:hidden
+in visibility- space will be reserved for that
+but in display none, no space is reserved */
+
+/* Alpha Channel */
+
+/* rgpa(255,0,0,0.5)
+means lite red
+
+rgba (255,0,0,1)
+means full red
+ */
+
+
+/* #box1
+ {
+    background-color:rgba(255,0,0,0.5);
+ }
+
+#box2
+{
+    background-color: rgba(0,0,255,0.5);
+}
+#box3
+{
+    background-color:rgba(0,255,0,0.5);
+} */
+
+/* Units in CSS
+Relative -% em rem
+pixel was absolute */
+
+/* % - size as relative to an element's parent object */
+
+/* means if 30% width means 30% of parents width */
+
+/* em-text related
+1em means relative to font size of parent */
+
+/* #content
+{
+    font-size: 10px;
+}
+#box1
+{
+    font-size:2em;
+
+} */
+/* means 2 times size of parent */
+/* 
+rem- root em is the unit which
+root element's font size is relative to the most outer level
+'s text size */
+
+/* Position Property-
+How an element is positioned in document */
+
+/* static/relative/absolute/fixed */
+
+div
+{
+     height:100px;
+    width:100px; 
+    background-color:blue;
+    border:2px solid black;
+    display:inline-block; 
+}
+#box3
+{
+        position: absolute;
+        /* relative to closest positioned ancestor
+        that is not static */
+        top:10px;
+        /* means content's (parent) 10px */
+
+}
+#box1
+{
+    position:fixed;
+    /* means whatever will be done will be according
+    to browser */
+    top:200px;
+    right:40px;
+}
+
+/* Z-index */
+/* we know that elements can also overlap each other */
+
+/* if elements overlap, which will come upar is decided
+by Z-index 
+if positive value meand upar
+if negative means neeche */
+
+
+/* BackGround image */
+/* https://unsplash.com/ */
+
+#box1
+{
+    background-image: url("candles.jpeg.jpg") ;
+    background-size: cover;
+}
+
+
+/* Background size
+cover- means the image will completely cover 
+the background  */
+/* 
+contain-fit image visible and if image is chhoti
+image will repeat */
+
+/* auto-means jitni image aa skti h itni aa jaati h  */
+
+/* FLEXBOX */
+
+/* Flexible Box Layout */
+

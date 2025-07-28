@@ -1,0 +1,92 @@
+body
+{
+    text-align: center;
+}
+div
+{
+    height:50px;
+    width:50px;
+    display:inline-block;
+    border:2px solid black;
+}
+#Container
+{
+    width:700px;
+    height:300px;
+   display: flex;
+   flex-direction:row; 
+   /* By default everything's row, so no change  */
+   /* left-right arrangement */
+   /* flex-direction:row-reverse; */
+   /* right to left arrangement */
+
+   /* flex-direction :column; */
+   /* this will arrange vertically, and they also 
+   adjust their height acc to container to fit in */
+   
+   /* flex-direction: column-reverse; */
+   /* bottom to top vertically */
+/* 
+   JUSTIFY CONTENT */
+
+   /* justify-content: flex-start; */
+   /* main axis start  */
+   justify-content:flex-end;
+   /* main axis's end  */
+   /* justify-content: space-around; */
+   justify-content: center;
+
+   /* flex-wrap:wrap; */
+
+        /* align-content: flex-start; */
+
+        /* align self-alignment of indivual along
+        cross axis */
+       
+        /* if container small and item big
+        so items adjust them */
+
+        /* but now if extra space in container, we want item
+        size to get big for this -flex grow and flex shrink*/
+
+        /* align items- for cross axis ke along adjust */
+
+
+
+}
+#box1
+{
+    background-color: antiquewhite;
+    flex-grow:1;
+}
+#box2
+{
+    background-color:aqua;
+    height:200px;
+    /* align-self:flex-end; */
+    flex-shrink: 2 ;
+    flex-shrink: 0.5;
+    flex-shrink:0;
+    flex-shrink:1;
+    flex-grow:2;
+}
+#box3
+{
+    background-color:lightgoldenrodyellow;
+    height:70px;
+}
+#box4
+{
+    background-color :lightpink;
+    /* align-self:flex-end; */
+}
+#box5
+{
+    background-color: lightgreen;
+}
+
+/* till now,all this was flexbox */
+
+
+
+
