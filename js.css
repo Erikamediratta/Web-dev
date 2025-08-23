@@ -1,0 +1,21 @@
+body
+{
+    background-color: lightpink;
+}
+#heading
+{
+    color:blue;
+}
+
+.first
+{
+    color:brown;
+}
+
+#box
+{
+    height:200px;
+    width:100px;
+    background-color: bisque;
+    border: 1px solid black;
+}
